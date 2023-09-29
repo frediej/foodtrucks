@@ -36,3 +36,4 @@ jobs:
         docker push ghcr.io/${{ env.BASE_IMG_NAME }}/ft-frontend:${{ steps.vars.outputs.sha_short }}
         docker push ghcr.io/${{ env.BASE_IMG_NAME }}/ft-frontend:latest
 
+
